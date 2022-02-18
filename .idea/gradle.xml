@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/futux" name="futux">
+                <projects>
+                  <project path="$PROJECT_DIR$/futux" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/futux/plugins" name="plugins">
+                <projects>
+                  <project path="$PROJECT_DIR$/futux/plugins" />
+                  <project path="$PROJECT_DIR$/futux/plugins/transform" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/futux/projects" name="projects">
+                <projects>
+                  <project path="$PROJECT_DIR$/futux/projects" />
+                  <project path="$PROJECT_DIR$/futux/projects/uikit" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/basis" />
+            <option value="$PROJECT_DIR$/futux" />
+            <option value="$PROJECT_DIR$/futux/plugins" />
+            <option value="$PROJECT_DIR$/futux/plugins/transform" />
+            <option value="$PROJECT_DIR$/futux/projects" />
+            <option value="$PROJECT_DIR$/futux/projects/uikit" />
+            <option value="$PROJECT_DIR$/nnframework" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
